@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/consumirapipaises.js"></script>
+    <script src="../js/utilidades.js"></script>
+</head>
+<body>
+    <select id="selectPaises" onclick="mostrarPaisSeleccionado(paises)">
+        <option value="">Escoger un pais</option>
+    </select>
+
+    <button id="selectPaises" onclick="mostrarPaisSeleccionado()">Seleccionar</button>
+
+    <table id="tablaPaises">
+        <tr>
+            <th>Nombre pais</th>
+            <th>Capital</th>
+            <th>Region</th>
+        </tr>
+    </table>
+
+    <script>
+        poblarDatosPaises()
+    </script>
+</body>
+</html>
